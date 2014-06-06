@@ -18,11 +18,12 @@ public final class R {
         public static final int btn_keyboard_key_pressed=0x7f020004;
         public static final int btn_keyboard_key_pressed_off=0x7f020005;
         public static final int btn_keyboard_key_pressed_on=0x7f020006;
-        public static final int keyboard_background=0x7f020007;
-        public static final int sym_keyboard_delete=0x7f020008;
-        public static final int sym_keyboard_shift=0x7f020009;
-        public static final int sym_keyboard_shift_locked=0x7f02000a;
-        public static final int sym_keyboard_space=0x7f02000b;
+        public static final int ic_launcher=0x7f020007;
+        public static final int keyboard_background=0x7f020008;
+        public static final int sym_keyboard_delete=0x7f020009;
+        public static final int sym_keyboard_shift=0x7f02000a;
+        public static final int sym_keyboard_shift_locked=0x7f02000b;
+        public static final int sym_keyboard_space=0x7f02000c;
     }
     public static final class id {
         public static final int keyboardView=0x7f060000;
