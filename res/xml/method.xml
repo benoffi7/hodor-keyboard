@@ -1,4 +1,4 @@
 <input-method
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:settingsActivity="com.whymarrh.apps.morsecode.Preferences"
+	android:settingsActivity="com.coffeeandcookies.hodorcode.Preferences"
 	/>

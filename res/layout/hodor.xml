@@ -1,0 +1,15 @@
+<Keyboard
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:horizontalGap="0px"
+	android:verticalGap="0px"
+	android:keyHeight="100dip"
+	>
+
+	<Row  >
+		<Key android:keyEdgeFlags="left" android:codes="1" android:keyLabel="HODOR"  android:keyWidth="100%" />
+		
+	</Row>
+
+	
+
+</Keyboard>
