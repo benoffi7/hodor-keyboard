@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 
+import java.util.Random;
+
 public class HodorCodeIME extends InputMethodService implements
 		OnKeyboardActionListener
 {
@@ -15,6 +17,10 @@ public class HodorCodeIME extends InputMethodService implements
 
 	private HodorCodeKeyboard hodorCodeKeyboard = null;
 	private HodorCodeKeyboardView hodorCodeKeyboardView = null;
+
+    private String[] hodor = {"hodor", "HODOR", "Hodor" };
+    private String[] punctuation = {"!", "?", "...", ""};
+    Random random = new Random();
 
 	@Override
 	public void onCreate()
@@ -50,7 +56,7 @@ public class HodorCodeIME extends InputMethodService implements
 		switch (primaryCode)
 		{
 			case 1:
-				commitText("HODOR ");
+                commitText(randomHodor());
 				break;
 
 			default:
@@ -117,5 +123,12 @@ public class HodorCodeIME extends InputMethodService implements
 		text.setLength(0);
 
 	}
+
+    private String randomHodor() {
+        String one = hodor[random.nextInt(hodor.length)];
+        String two = punctuation[random.nextInt(punctuation.length)];
+
+        return one + two + " ";
+    }
 
 }
