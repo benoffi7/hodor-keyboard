@@ -20,6 +20,7 @@ public class HodorCodeIME extends InputMethodService implements
 
     private String[] hodor = {"hodor", "HODOR", "Hodor" };
     private String[] punctuation = {"!", "?", "...", ""};
+    private String space = " ";
     Random random = new Random();
 
 	@Override
@@ -128,7 +129,7 @@ public class HodorCodeIME extends InputMethodService implements
         String one = hodor[random.nextInt(hodor.length)];
         String two = punctuation[random.nextInt(punctuation.length)];
 
-        return one + two + " ";
+        return one + two + space;
     }
 
 }
