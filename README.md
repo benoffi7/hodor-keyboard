@@ -1,6 +1,16 @@
 ## Welcome to HodorKeyboard ##
 
-**HodorKeyboard** is a custom keyboard for Android devices based on the popular GoT character (*), Hodor. As only Hodor says "Hodor", this keyboard has one key are famously. A swipe to the left and you can delete a character and swipe to the right you delete a "Hodor."
+**HodorKeyboard** is a custom keyboard for Android devices based on the popular GoT character (*), Hodor. As only Hodor says "Hodor", this keyboard has one key are famously. 
+
+## Features ##
+
+-> Swipe to the left and you can delete a character
+-> Swipe to the right you delete a "Hodor"
+
+Special thanks to  [Richard Banasiak](https://github.com/banasiak)
+
+-> Long press on the keyboard now pops up the Input Method picker.
+-> Added random capitalization and punctuation.
 
 ### Free and open ###
 
