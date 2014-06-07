@@ -15,7 +15,10 @@ This project was done for educational purposes so the code is open and the appli
 
 If you like the code and please make a donation [here](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8C8CSZ5L9G9ZQ)
 
+![](https://scontent-a-gru.xx.fbcdn.net/hphotos-xfa1/t1.0-9/10346542_652924744794416_8912285040204668468_n.png)
 
 ![](https://raw.githubusercontent.com/benoffi7/hodor-keyboard/master/git/device-2014-06-06-104848.png)
+
+
 
 *© 2013 HBO Ole Partners. All Rights Reserved. Cinemax®, HBO® And Home Box Office® Are Registered Trademarks Of Home Box Office, Inc.
